@@ -1,6 +1,3 @@
-use zomato_analysis;
-select * from zomato_data;
-
 
 -- Booking availability vs rating
 SELECT book_table, ROUND(AVG(rate), 2) AS avg_rating, COUNT(*) AS total
